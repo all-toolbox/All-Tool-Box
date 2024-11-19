@@ -1,0 +1,60 @@
+{
+	"$schema": "../gen/schemas/desktop-schema.json",
+	"identifier": "default",
+	"description": "Capability for the main window",
+	"windows": ["main"],
+	"permissions": [
+		{
+			"identifier": "http:default",
+			"allow": [
+				{
+					"url": "https://*"
+				},
+				{
+					"url": "http://*"
+				}
+			]
+		},
+		"core:path:default",
+		"core:event:default",
+		"core:window:default",
+		"core:window:allow-start-dragging",
+		"core:window:allow-close",
+		"core:window:allow-minimize",
+		"core:window:allow-toggle-maximize",
+		"core:window:allow-internal-toggle-maximize",
+		"core:app:default",
+		"core:image:default",
+		"core:resources:default",
+		"core:menu:default",
+		"core:tray:default",
+		"clipboard-manager:default",
+		"clipboard-manager:allow-write-text",
+		"clipboard-manager:allow-read-text",
+		"dialog:allow-save",
+		"fs:default",
+		"fs:allow-write-text-file",
+		"http:default",
+		"os:default",
+		"os:allow-platform",
+		"stronghold:default",
+		"stronghold:allow-initialize",
+		"stronghold:allow-create-client",
+		"stronghold:allow-load-client",
+		"stronghold:allow-save",
+		"stronghold:allow-save-store-record",
+		"stronghold:allow-get-store-record",
+		"stronghold:allow-remove-store-record",
+		"shell:default",
+		"shell:allow-open",
+		"store:default",
+		"store:allow-get",
+		"store:allow-set",
+		"store:allow-save",
+		"store:allow-load",
+		"upload:default",
+		"upload:allow-download",
+		"updater:default",
+		"process:default"
+	]
+}
