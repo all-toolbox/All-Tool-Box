@@ -4,7 +4,7 @@ import FooterHelp from "../footer_help";
 import ToolbarHelp from "../toolbar_help";
 import AlarmSound from "../../assets/sounds/electronic-alarm-clock-151927.mp3";
 import DeleteIcon from "../../assets/close-x.svg";
-import { Checkbox } from "@controlkit/Checkbox";
+// import { Checkbox } from "@controlkit/ui";
 import Input from "@src/components/commons/input";
 import { help_styles } from "@src/components/footer/help/styles";
 import { util_styles } from "@src/utils/styles";
@@ -206,11 +206,11 @@ const Task = ({ name, onDelete }: I_TaskProps) => {
 	return (
 		<div {...stylex.props(styles.task, isDone && styles.taskDone)}>
 			<p {...stylex.props(styles.taskName)}>{name}</p>
-			<Checkbox
+			{/* <Checkbox
 				size="SMALL"
 				isChecked={isDone}
 				onClick={() => setIsDone(!isDone)}
-			/>
+			/> */}
 			<button
 				{...stylex.props(styles.deleteButton)}
 				onClick={() => onDelete(name)}

@@ -53,6 +53,10 @@ export default defineConfig(async ({ command, mode }) => {
 				topLevelAwait(),
 			],
 
+			optimizeDeps: {
+				exclude: ["@controlkit/ui"],
+			},
+
 			resolve: {
 				alias: {
 					"@src": resolve(__dirname, "./src"),
@@ -124,6 +128,10 @@ export default defineConfig(async ({ command, mode }) => {
 			wasm(),
 			topLevelAwait(),
 		],
+
+		optimizeDeps: {
+			exclude: ["@controlkit/ui"],
+		},
 
 		resolve: {
 			alias: {

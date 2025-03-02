@@ -11,7 +11,7 @@ import FooterHelp from "../footer_help";
 import { help_styles } from "@src/components/footer/help/styles";
 import { open } from "@tauri-apps/plugin-shell";
 import { util_styles } from "@src/utils/styles";
-import { ColorPickerHexAlpha } from "@controlkit/color-picker";
+import { ColorPickerHexAlpha } from "@controlkit/ui";
 
 interface BoxShadowProps {
 	horizontal: string;

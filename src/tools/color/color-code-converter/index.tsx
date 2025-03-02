@@ -4,7 +4,7 @@ import stylex from "@stylexjs/stylex";
 import ToolbarHelp from "@src/tools/toolbar_help";
 import FooterHelp from "@src/tools/footer_help";
 import { help_styles } from "@src/components/footer/help/styles";
-import { ColorPickerHexAlpha } from "@controlkit/color-picker";
+import { ColorPickerHexAlpha } from "@controlkit/ui";
 import { ToastContainer, toast } from "react-toastify";
 import { writeText, readText } from "@tauri-apps/plugin-clipboard-manager";
 

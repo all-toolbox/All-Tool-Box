@@ -6,7 +6,7 @@ import * as stylex from "@stylexjs/stylex";
 import { open } from "@tauri-apps/plugin-shell";
 
 // @ts-ignore
-import { Avatar } from "@controlkit/Avatar";
+// import { Avatar } from "@controlkit/Avatar";
 import toolsIcon from "@assets/svgs/tools.svg";
 import snippetIcon from "@assets/svgs/code.svg";
 import sheetsIcon from "@assets/svgs/papers.svg";

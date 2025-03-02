@@ -11,9 +11,7 @@
   },
   "dependencies": {
     "@ant-design/colors": "^7.0.2",
-    "@controlkit/avatar": "^0.1.7",
-    "@controlkit/checkbox": "^0.1.6",
-    "@controlkit/color-picker": "^0.1.2",
+    "@controlkit/ui": "^0.2.1",
     "@lexical/react": "^0.15.0",
     "@lexical/utils": "^0.15.0",
     "@monaco-editor/react": "^4.6.0",
